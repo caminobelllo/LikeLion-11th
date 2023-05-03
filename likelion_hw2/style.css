@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 60px;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#techit_logo {
+  width: 110px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+}
+
+#nav__menu {
+  padding: 0px 20px;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#user__icon {
+  padding-left: 30px;
+}
+
+#banner {
+  width: 100%;
+}
+
+.body__article {
+  width: 100%;
+  margin: 80px 80px 0px 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#article_1 {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(255, 128, 0);
+  padding: 5px 0px;
+}
+
+#article_2 {
+  font-size: 22px;
+  padding: 10px 0px;
+}
+
+#article_3 {
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+  padding: 10px 0px;
+}
+
+#show_more {
+  width: 100%;
+  position: relative;
+  left: 850px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(78, 78, 78);
+}
+
+.body__schools {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0px 0px 120px;
+}
+
+.school {
+  margin: 0px 20px;
+}
+
+.class_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.class_img {
+  width: 100%;
+  height: auto;
+}
+
+.img_card {
+  border-radius: 3%;
+  overflow: hidden;
+  height: 221px;
+  width: 290px;
+}
+
+.info__status__ing {
+  width: fit-content;
+  border: 1px solid blue;
+  color: blue;
+  padding: 3px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.info__status__yet {
+  width: fit-content;
+  border: 1px solid green;
+  color: green;
+  padding: 3px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.info__status__end {
+  width: fit-content;
+  border: 1px solid gray;
+  color: gray;
+  padding: 3px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+.info__title {
+  margin: 18px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info__sub {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.info__date {
+  margin-bottom: 20px;
+  color: rgb(148, 148, 148);
+  font-size: 15px;
+  font-weight: 600;
+}
