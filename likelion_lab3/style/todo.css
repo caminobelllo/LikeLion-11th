@@ -82,3 +82,12 @@ button {
   border: 0px;
   background: none;
 }
+
+#weather {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 14px;
+  color: rgb(100, 181, 207);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
