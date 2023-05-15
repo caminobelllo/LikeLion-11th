@@ -13,7 +13,7 @@ function Fourth(props) {
         src={img4}
         location="상하이, 중국"
         rating="NEW ⭐"
-        distance="888km 거리"
+        distance="880km 거리"
         date="6월 12일~17일"
         price="2,599,290원 /박"
       />
