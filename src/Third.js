@@ -2,7 +2,7 @@ import React from "react";
 import Homepage from "./Homepage";
 import img3 from "./img/3.jpg";
 
-function Third(props) {
+function Third() {
   return (
     <div className="Third">
       <div className="image">

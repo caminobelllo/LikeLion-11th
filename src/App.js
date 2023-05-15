@@ -4,14 +4,20 @@ import First from "./First";
 import Second from "./Second";
 import Third from "./Third";
 import Fourth from "./Fourth";
+import Banner from "./Banner";
 
 function App() {
   return (
     <div className="App">
-      <First />
-      <Second />
-      <Third />
-      <Fourth />
+      <div className="nav">
+        <Banner />
+      </div>
+      <div className="body">
+        <First />
+        <Second />
+        <Third />
+        <Fourth />
+      </div>
     </div>
   );
 }

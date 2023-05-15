@@ -2,7 +2,7 @@ import React from "react";
 import Homepage from "./Homepage";
 import img4 from "./img/4.jpg";
 
-function Fourth(props) {
+function Fourth() {
   return (
     <div className="Fourth">
       <div className="image">

@@ -5,22 +5,31 @@
 }
 
 .App {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
   display: flex;
   flex-direction: row;
 }
 
-img {
-  height: 280px;
-  border-radius: 15px;
+.body {
+  display: flex;
+  flex-direction: row;
 }
 
 .First {
-  margin: 25px;
+  margin: 40px;
 }
 
 .Second,
 .Third,
 .Fourth {
-  margin: 25px 25px 25px 0;
+  margin: 40px 40px 40px 30px;
+}
+
+.image img {
+  height: 300px;
+  border-radius: 15px;
 }
