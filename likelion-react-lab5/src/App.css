@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.First {
+  margin: 40px;
+}
+
+.Second,
+.Third,
+.Fourth {
+  margin: 40px 40px 40px 30px;
+}
+
+.image img {
+  height: 300px;
+  border-radius: 15px;
+}
